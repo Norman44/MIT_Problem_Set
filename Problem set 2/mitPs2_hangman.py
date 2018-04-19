@@ -368,7 +368,7 @@ def hangman_with_hints(secret_word):
 
       elif lett == "*":
         print("Possible word matches are: ")
-        show_possible_matches(secret_word)
+        show_possible_matches(get_guessed_word(secret_word, letters_guessed)
 
       else:
         if warnings == 0:
